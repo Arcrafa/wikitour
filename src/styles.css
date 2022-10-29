@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FBF9F6;
+}
+
+.vw-95 {
+    width: 95vw;
+}
+
+.vh-80 {
+    height: 80vw;
+}
+
+.vw-75 {
+    width: 75vw;
+}
+
+.app-bg-light-green, .app-bg-green:hover {
+    background-color: #E4FFF4;
+    color: #1FD489;
+    border: 1px solid #1FD489;
+}
+
+.app-bg-green {
+    background-color: #1FD489;
+    color: white;
+}
+
+.app-bg-light-blue, .app-bg-blue:hover {
+    background-color: #F2FAFF;
+    color: #01B2FF;
+    border: 1px solid #01B2FF;
+}
+
+.app-bg-blue {
+    background-color: #01B2FF;
+    color: white;
+}
+
+.app-bg-light-purple, .app-bg-purple:hover {
+    background-color: #F6F1FC;
+    color: #570FB2;
+    border: 1px solid #570FB2;
+}
+
+.app-bg-purple {
+    background-color: #570FB2;
+    color: white;
+}
+
+.app-bg-light-yellow, .app-bg-yellow:hover {
+    background-color: #FFF8DC;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+}
+
+.app-bg-yellow {
+    background-color: #FFC700;
+    color: white;
+}
+
+.app-bg-light-red, .app-bg-red:hover {
+    background-color: #FFEFF3;
+    color: #F1416C;
+    border: 1px solid #F1416C;
+}
+
+.app-bg-red {
+    background-color: #F1416C;
+    color: white;
+}
+
+.app-bg-light-grey, .app-bg-grey:hover {
+    background-color: #EFF2F5;
+    color: #181D32;
+    border: 1px solid #181D32;
+}
+
+.app-bg-grey {
+    background-color: #181D32;
+    color: white;
+}
