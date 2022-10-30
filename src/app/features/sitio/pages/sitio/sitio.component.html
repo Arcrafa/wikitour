@@ -18,11 +18,9 @@
   <ngb-carousel *ngIf="sitio.imagenes">
     <ng-template ngbSlide *ngFor="let imagen of sitio.imagenes">
       <div class="picsum-img-wrapper">
-        <img [src]="imagen.url" alt="Random first slide"/>
+        <img [src]="imagen.url" alt="Random first slide" style="height: 400px"/>
       </div>
       <div class="carousel-caption">
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </ng-template>
   </ngb-carousel>
@@ -34,11 +32,11 @@
     </div>
   </div>
 
-    <div class="card app-bg-light-red m-2" *ngIf="sitio.ofertas.length==0">
-      <div class="card-body d-flex flex-column align-items-center">
-        <h4 class="font-weight-normal text-center mb-3">Este sitio no tiene ofertas disponibles</h4>
-      </div>
+  <div class="card app-bg-light-red m-2" *ngIf="sitio.ofertas.length==0">
+    <div class="card-body d-flex flex-column align-items-center">
+      <h4 class="font-weight-normal text-center mb-3">Este sitio no tiene ofertas disponibles</h4>
     </div>
+  </div>
 
   <div *ngIf="verOfertas">
     <div *ngIf="sitio.ofertas" class="vw-75 d-flex align-items-center justify-content-center flex-wrap">
