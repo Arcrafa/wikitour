@@ -19,7 +19,7 @@ export class SitioComponent implements OnInit, OnDestroy {
 
 
   private sitioSub!: Subscription;
-  verOfertas = false;
+  verContactar = false;
 
   constructor(
     private sitioService: SitiosService,
